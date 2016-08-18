@@ -1,7 +1,7 @@
 body, html {
     padding: 0;
     margin: 0;
-    background-color: #292D2C
+    background-color: #252839
 
 }
 
@@ -12,14 +12,20 @@ body, html {
 .container {
     max-width: 80%;
     margin: 0 auto;
+    color: #b5b5b7;
 }
 
 
 nav {
-    padding: 10px 20px;
-    background: #292D2C;
-}
+    padding: 0px 0px;
+    background: #252839;
+    border-bottom: solid #f2b632 1px;
 
+}
+.logo {
+    font-size: 50px;
+    color: #f2b632;
+}
 h1 {
     float: left;
 }
@@ -31,7 +37,7 @@ ul {
 
 ul > li {
     display: inline-block;
-    font-size: 20px;
+    font-size: 23px;
     margin-left: 15px;
     text-transform: uppercase;
     font-weight: bold;
@@ -39,7 +45,7 @@ ul > li {
 
 ul > li > a {
     text-decoration: none;
-    color: #33E0FF;
+    color: #b5b5b7;
     font-family: Arial;
 }
 
@@ -86,7 +92,7 @@ nav > h1 > a {
 }
 
 .button {
-    background-color: white;
+    background-color: #f2b632;
     border: 2px solid black;
     border-radius: 8px;
     color: black;
@@ -101,30 +107,36 @@ nav > h1 > a {
 }
 
 button:hover {
-    background: #292D2C;
-    color: white;
+    background: white;
+    color: black;
     cursor: pointer;
 }
+.line {
+    height: 1px;
+    width: auto;
+    background: #f2b632;
+    margin-top: 50px;
 
+}
 .portfolio > .container > h1{
     margin-left: 33%;
 }
 
 div > div > h1 {
     font-family: Arial;
-    color: #33E0FF;
+    color: #b5b5b7;
     font-size: 55px
 
 }
 nav > div > h1 > a {
     text-decoration: none;
-    color: #33E0FF;
+    color: #b5b5b7;
     font-family: Arial;
     font-size: 40px;
 }
 table {
 	border: none;
-	background-color: #292D2C;
+	background-color: #252839;
 	float: right;
 	margin-right: 10px;
 	border-bottom-right-radius: 15px;
@@ -153,7 +165,7 @@ td iframe {
 .contactDiv {
     margin-top: 200px;
     text-align: center;
-    color: #33E0FF;
+    color: white;
     font-family: Arial;
 }
 
@@ -183,7 +195,7 @@ td iframe {
     max-width: 25%;
     font-family: Arial;
     color: black;
-    background: white;
+    background: #f2b632;
     border-radius: 6px;
     font-size: 20px;
     font-weight: bold;
@@ -193,6 +205,16 @@ td iframe {
 }
 
 #submitMessage:hover {
-    background: #33E0FF;
+    background: white;
     cursor: pointer;
+}
+.footer {
+    height: 170px;
+    width: auto;
+    color: #292D2C;
+}
+.footer1 {
+    height: 10px;
+    width: auto;
+    color: #292D2C;
 }
